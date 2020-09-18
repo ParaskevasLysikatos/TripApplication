@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.univ.mixalis.tripapp.MainActivity1">
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Profile"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:typeface="normal"
+        tools:text="Profile" />
+
+    <TextView
+
+        android:id="@+id/welcomeTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="53dp"
+        android:fontFamily="casual"
+        android:text="Welcome:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/idsetTripBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="160dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Trip List"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:typeface="normal"
+        tools:text="Trip List" />
+
+    <Button
+        android:id="@+id/idEmNum"
+        android:layout_width="wrap_content"
+
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginBottom="202dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Emergency numbers"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:typeface="normal"
+        tools:text="Emergency numbers" />
+
+    <Button
+        android:id="@+id/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="118dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Tools"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:typeface="normal"
+        tools:text="Tools" />
+
+    <TextView
+        android:id="@+id/read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/welcomeTxt"
+        android:layout_alignEnd="@+id/idEmNum"
+        android:fontFamily="sans-serif"
+        android:text="TextView"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/LoadYourTrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/idsetTripBtn"
+        android:layout_toEndOf="@+id/welcomeTxt"
+        android:text="Load Your Trip"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold" />
+
+</RelativeLayout>

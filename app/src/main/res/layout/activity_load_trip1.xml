@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.univ.mixalis.tripapp.LoadTrip1Activity">
+
+    <Button
+        android:id="@+id/loaderBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:onClick="onClickLoad"
+        android:text="Load test"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="383dp"
+        android:layout_height="454dp">
+
+        <LinearLayout
+            android:id="@+id/llayoutId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TitleTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The items you need to pack are:"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/ItemsNeedET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="..." />
+
+            <TextView
+                android:id="@+id/Title2TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your available budget per day is:"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/BudgetPerDay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="..." />
+
+            <TextView
+                android:id="@+id/Title3TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your trip is in this many days:"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/DaysLeft"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="..." />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

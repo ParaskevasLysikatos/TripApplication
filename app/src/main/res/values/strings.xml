@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TripApp</string>
+    <string name="open_weather_maps_app_id">0affb963a85fb545bfbeb3e71f0a2b38</string>
+    <string name="place_not_found">Sorry, no weather data found.</string>
+    <string name="heading_0_0">Heading: 0.0</string>
+    <string name="action_settings">Settings</string>
+    <string name="compass_dial">Compass Dial</string>
+    <string name="compass_hands">Compass Hands</string>
+    <string name="_0">0°</string>
+    <string name="bag">bag</string>
+    <string name="pants">pants</string>
+    <string name="t_shirt">t-shirt</string>
+    <string name="Save">Save</string>
+    <string name="Back">Back</string>
+    <string name="Button">Button</string>
+    <string name="tent">tent</string>
+    <string name="burgers">burgers</string>
+    <string name="hammer">hammer</string>
+    <string name="nails">nails</string>
+    <string name="blouse">blouse</string>
+    <string name="hair_spray">hair_spray</string>
+    <string name="lighter">lighter</string>
+    <string name="go_to_saved_trip">Go to saved trip</string>
+    <string name="name">com.univ.mixalis.tripapp.name</string>
+
+</resources>
